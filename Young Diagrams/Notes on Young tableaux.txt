@@ -1,0 +1,28 @@
+big point. The conjufacy classes correspond to cycle types. Cycle types are partitions of n and partitions of n correspond to Young diagrams.
+
+What's the defining representation? - loose term. Usually meaning the smallest dimensional faithful representation.
+
+The number of conjugacy classes is the number of irreps of a group.
+
+So each Young diagram corresponds to a particular rep (for the group, e.g. trivial rep) and young tableaux provide it with a basis.
+
+So the diagram indicates the rep. Each tableaux can be acted upon by a member of the group. Making them tabloids gives an idea of the dimension of the representation.
+
+So any given tableaux is fairly arbitrary. These are just sort of vectors. The real vectors are the tabloids. The main thing is the diagram. This tells you the rep.
+
+So given some t we can define a subgroup of t which leaves the associatede tabloid invariant. R_t. There is also C_t which is another subgroup but what it means is as yet unclear.
+
+The S_{} things are the elements of S_n that ONLY swap 1 and 2 and 3. We then cross them to get a group isomorphic to the subgroup of S_n whose elements do 123 and as 45.
+
+Given some t which is a sortof vector in out space we can define an associated polytabloid which gives us a new vector in the space.
+
+We show that the group acts on the set of polytabloids. So all the polytabloids that correspond to ts of a given diagram type we have a polytabloid space. So for each diagram we have a polytabloid space.
+
+So for a given partition we have a representation. We define the Specht module as the subspace of this spanned by that partition's associated polytabloids.
+
+So each Mlambda will have a corresponding Specht submodule.
+
+So now we have our partitions, which are our conjugacy classes and each has an associated Specht module, which is the irrep.
+
+
+NOW we bring in standard tableaux.

@@ -1,0 +1,80 @@
+So we have the set [n].
+Now put Delta on it which is a set of subsets. So we now have a set containing i-faces, and i-1 faces etc.
+The dimension of Delta is the biggest face in it. The closure under subset taking means that we are only going to have one i_max face.
+
+Now we have a function on Delta called F_i. This gives a new set which is the set of i-faces in Delta. So F_i(Delta) is a new set. So sigma is an i-face.
+
+From F_i(Delta) we are able define a vector space. Each sigma has a basis element in this space. There are m i-faces (and hence sigmas in F_i(Delta)).
+
+so the biggest face in Delta is an (n-1)-face.
+
+The tricky bit is certainly the definition of the k-vector space.
+
+
+So what is e_{sigma\j}. It is the basis vector of some basis element which is associated with the set, sigma, minus the element j.
+
+
+So sigma is a set of numbers. List these numbers in order. This gives you i. So it certinaly doesn't matter the number j itself, this is just a label. However j does determine the ordering.
+
+
+
+
+
+Typo in diagram - should be delta_1 not delta_0. delta_0 takes you to the empty set.
+
+---
+Write up your understandin of the proof od d^2 = 0.
+So see the proof in Muhammad. Look at what is being summed over. So if i is x and j is y, with x < y. Now swap, so that i is y and t is x. If x is odd, say, and y is even, then we will get a psitive and a negative. The two basis vectors, one with the xth and yth element taken out and one with the yth and xth element taken out are the same vector. These vectors now have different signs.
+
+---
+So remember that these additions are taking place in the real vector space. so they are well defined. My only problem is that the vector space itself doesn't seem to be well defined. However if all of our sets make a basis vector then maybe that is all we need to know. That is the vector space and there are k i-faces in F_i(Delta).
+
+Superb. OK so let's just accept that this is what the vector space looks like.
+
+=========================================
+
+So back to Nadathur. We have ignore his bollocks. We have an n-simplex as a set of points. An n-face is a subset. Forget about his properly situated. A complex is a set of sets. These need to have certain conditinos. All this from Allgaier. Bringing in Nadathur we then slightly. Label the points on your simplex using an ordered alphabet. Labelling them 1,2,3 like in Allgaier gives an ordering to the simplex. When you then map the simplex to a basis vector, this is with the set of elements in the ordering you have given. (To contrast the two, Allgaier doesn't allow 3,1,2 because you should just relabel your numbers so that we have 1,2,3.).
+
+
+So once this ordering is given we agree upon the orientation of one of its (n-1)-faces that it inherits. So for Allgaier he isn't going straight to the geometry. The ordering is already implicit in the way you choose them from [n]. So his is totally fine. the ordering is implicit in all of his simplices whereas Nadathur adds it in arbitrarily. Anyway. By the time we get to page 3 of Nadathur then we are in agreement. Nadathur's An simplices are Allgaier's associated vectors.
+
+
+Ah so Allgaier defines an abstract simplicial complex. That is the difference. So Nadathur's are addable over Z. We now have the abelian group from the n-chains. Happy days.
+
+Now we get to his definition of the boundary. We certainly want a sum over (n-1)-faces. In an n-simplex there are surely n+1 different j's and therfore n+1 different (n-1)-faces.
+
+So the sum is fine, the problem is that there was no explicit statement that when A^{n-1}_i = (-1)^i(v_0....)
+
+Ok so continue to ignore Nadathur up to the example. I'm sure he's speaking sense but your intuition is firmly with Allgaier and you are getting the right answers out. The only thing that that is weird with Allgaier and with a lot of them is this labelling of the delta map which Nadathur doesn't do.
+
+Ok so now on to Nadathur where everything is fine. Nadathur now uses examples that cross over from Allgaier and so we're feeling better now.
+
+Homologous equivalence is a bit odd. THINK ABOUT THIS.
+So boundaries are n-cycles that are homologous to zero. All boundaries are then homologous to each other? 
+
+This extends to chain. The boundary relation might rely on (x-y) being homologous to zero. However, surely this is true from x and y being homologous to zero. What is the partition? Is it a partition between boundaries and non boundaries within the n-cycle which is itself a subset of the n-chains.
+
+B_n is a subgroup of Z_n so we form the quotient group.
+
+So Z_n is a subgroup of the full group of n-chains. Ah the labelling is helpful in the definition of the homology group. Nadathur leaves it out and has it as implicitly understood. Which I prefer.
+
+
+=====
+Aside. So your simplex is ordered from the outset by the labels you choose to give to its vertices. Getting the boundary of the vector associate with this simplex is going to give you a sum of subset vectors whose associated simplex set is going to follow the boundary around.
+
+When you take the boundary of these we are going to get 0.
+=====
+
+AHH note that the n sphere is the boundary of the n+1-simplex. This is why they are different topolgoically and different homology groups. The n-simplex is topologically equivalent to the n-ball.
+
+====
+
+Ok so all of that was fine. Now on to singular homology.
+
+The singular n simplex in X looks awfully familiar to the homotopy relation.
+
+
+Slight out of joint notation. The subscript on the delta is brought in in singular homology.
+
+
+
